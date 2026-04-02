@@ -1315,7 +1315,8 @@ class ChartingState extends MusicBeatState
 			SaveManager.chartAutosave(_song.song.replace(" ", "-"));
 		}
 
-		if(Startup.hasEe2 && lilBuddiesBox.checked && false){ //temp disable cuz its broken and i dont wanna try to fix it right now
+		if(Startup.hasEe2 && lilBuddiesBox.checked)
+		{
 			if(!ee2Check && 
 				!FlxG.sound.music.playing &&
 				FlxG.mouse.viewX >= lilBf.x &&
