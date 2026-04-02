@@ -1331,7 +1331,9 @@ class ChartingState extends MusicBeatState
 					Config.ee2 = true;
 	
 					PlayState.fceForLilBuddies = true;
-					screenshotBitmap = FlxG.camera.buffer.clone();
+
+					var screenData:BitmapData = BitmapData.fromImage(FlxG.stage.window.readPixels());
+					screenshotBitmap = screenData;
 
 					//FlxScreenGrab.grab(null, false, true);
 	
