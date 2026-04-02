@@ -13,6 +13,12 @@ import openfl.display.InteractiveObject;
 import openfl.events.UncaughtErrorEvent;
 import haxe.CallStack;
 import haxe.io.Path;
+import lime.app.Application;
+import sys.FileSystem;
+import sys.io.File;
+import openfl.Lib;
+
+using StringTools;
 #end
 
 class Main extends Sprite
