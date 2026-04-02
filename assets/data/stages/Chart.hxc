@@ -2,6 +2,7 @@ import flixel.tweens.FlxTween;
 import flixel.FlxSprite;
 import flixel.math.FlxPoint;
 import flixel.FlxObject;
+import editors.ChartingState;
 
 class Chart extends BaseStage
 {
